@@ -1,0 +1,19 @@
+{
+  "name": "selenium-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chromedriver": "^131.0.4",
+    "mocha": "^11.0.1"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.27.0"
+  }
+}
